@@ -29,9 +29,9 @@ public class RegActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate( savedInstanceState );
+        super.onCreate( savedInstanceState);
         setContentView( R.layout.activity_reg );
-        emll = (EditText) findViewById( R.id.eml );
+        emll = (EditText) findViewById( R.id.emll);
         psdd = (EditText) findViewById( R.id.psdd );
         Button btm = (Button) findViewById( R.id.btm );
         btmm = (Button) findViewById( R.id.btmm );
@@ -58,11 +58,6 @@ public class RegActivity extends AppCompatActivity {
                     psdd.setError( "Password is required" );
                     return;
                 }
-
-
-
-
-
                         mAuth.createUserWithEmailAndPassword( email, password ).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
