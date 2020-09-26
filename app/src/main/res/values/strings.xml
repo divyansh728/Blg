@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">College Blog</string>
+    <string name="action_search_text">search</string>
+    <string name="action_settings_text">Settings</string>
+    <string name="action_logout_text">Text</string>
+    <string name="action_logout">Logout</string>
+</resources>

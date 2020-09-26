@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "796898962864",
+    "firebase_url": "https://blog-fee85.firebaseio.com",
+    "project_id": "blog-fee85",
+    "storage_bucket": "blog-fee85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796898962864:android:d6283ae2b2f69767f0fa75",
+        "android_client_info": {
+          "package_name": "com.example.collegeblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796898962864-j1t734jud7odhspeijo4u7887nt5c4pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYO8ZHti5kuX5nHw2q2kxdYTjAJSMg0-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796898962864-j1t734jud7odhspeijo4u7887nt5c4pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
