@@ -19,9 +19,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LgnActivity extends AppCompatActivity {
-   private EditText psd;
+
+    private EditText psd;
     private  EditText eml;
-   private Button btn;
+    private Button btn;
     private Button btnn;
     private ProgressBar progress;
     private FirebaseAuth mAuth;
@@ -37,14 +38,13 @@ public class LgnActivity extends AppCompatActivity {
         btn = (Button) findViewById( R.id.btn );
         btnn = (Button) findViewById( R.id.btnn );
         progress = (ProgressBar) findViewById( R.id.pgbb );
+        progress.setVisibility(View.INVISIBLE);
 
         btnn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent regintent = new Intent( LgnActivity.this, RegActivity.class );
                 startActivity( regintent );
-
-
             }
         } );
 
